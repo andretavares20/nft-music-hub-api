@@ -84,10 +84,6 @@ nft-music-hub-api/
        url: jdbc:mysql://localhost:3306/nftmusicdb
        username: seu-usuario
        password: sua-senha
-     jpa:
-       hibernate:
-         ddl-auto: update
-       show-sql: true
      application:
        name: NFT Music Hub API
    ```
