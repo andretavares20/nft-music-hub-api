@@ -73,7 +73,7 @@ nft-music-hub-api/
 
 1. **Clone o repositório**  
    ```bash
-   git clone https://github.com/seu-usuario/nft-music-hub-api.git
+   git clone https://github.com/andretavares20/nft-music-hub-api.git
    cd nft-music-hub-api
    ```
 2. **Configure o banco de dados**  
