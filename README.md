@@ -128,33 +128,6 @@ nft-music-hub-api/
      
 ---
 
-## 🚀 **Deploy**
-
-### **Configuração para Produção**
-1. **Configurar variáveis de ambiente**  
-   Atualize as configurações de produção no arquivo `application-prod.yml`:
-   ```yaml
-   spring:
-     datasource:
-       url: jdbc:mysql://seu-banco-prod:5432/nftmusicdb
-       username: usuario-prod
-       password: senha-prod
-     jpa:
-       hibernate:
-         ddl-auto: validate
-2. **Gerar o artefato .jar**
-   Compile o projeto para produção:
-   ```bash
-   mvn clean package
-3. **Executar o arquivo .jar**
-   Use o seguinte comando:
-   ```bash
-   java -jar target/nft-music-hub-api.jar --spring.profiles.active=prod
-4. **Acesso à API em Produção**
-   - Acesse sua aplicação em produção pela URL configurada no servidor.
-
----
-
 ## 🤝 **Como Contribuir**
 
 Contribuições são **muito bem-vindas**! Siga os passos abaixo para colaborar com o projeto:
