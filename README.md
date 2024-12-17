@@ -26,7 +26,7 @@ Este repositório contém a **API Back-end**, desenvolvida em **Spring Boot**, q
 |-------------------------|-------------------------------------|
 | **Java 17**            | Linguagem de programação           |
 | **Spring Boot 3.x**     | Framework para APIs REST           |
-| **PostgreSQL**          | Banco de dados relacional          |
+| **MySQL**          | Banco de dados relacional          |
 | **Ethereum (Goerli)**   | Rede blockchain para NFTs          |
 | **Solidity**            | Contratos inteligentes             |
 | **IPFS**                | Armazenamento descentralizado      |
@@ -64,7 +64,7 @@ nft-music-hub-api/
 ### **Pré-requisitos**
 - **Java 17**  
 - **Maven**  
-- **PostgreSQL**  
+- **MySQL**  
 - Carteira Ethereum (ex.: MetaMask)
 
 ---
@@ -77,11 +77,11 @@ nft-music-hub-api/
    cd nft-music-hub-api
    ```
 2. **Configure o banco de dados**  
-   Edite o arquivo `application.yml` com suas credenciais do PostgreSQL:
+   Edite o arquivo `application.yml` com suas credenciais do MySQL:
    ```yaml
    spring:
      datasource:
-       url: jdbc:postgresql://localhost:5432/nftmusicdb
+       url: jdbc:mysql://localhost:5432/nftmusicdb
        username: seu-usuario
        password: sua-senha
      jpa:
@@ -140,7 +140,7 @@ nft-music-hub-api/
    ```yaml
    spring:
      datasource:
-       url: jdbc:postgresql://seu-banco-prod:5432/nftmusicdb
+       url: jdbc:mysql://seu-banco-prod:5432/nftmusicdb
        username: usuario-prod
        password: senha-prod
      jpa:
