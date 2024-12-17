@@ -1,5 +1,7 @@
 # 🎵 **NFT Music Hub API**
 
+---
+
 ## **📖 Descrição do Projeto**
 
 O **NFT Music Hub** é uma plataforma que permite que **artistas independentes** criem, vendam e gerenciem **NFTs de músicas** e experiências exclusivas diretamente com seus fãs.  
