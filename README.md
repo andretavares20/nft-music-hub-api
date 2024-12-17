@@ -90,5 +90,38 @@ nft-music-hub-api/
        show-sql: true
      application:
        name: NFT Music Hub API
+   ```
+3. **Instale as dependências**
+   Utilize o Maven para baixar todas as dependências necessárias:
+   ```bash
+   mvn clean install
+   ```
+4. **Execute a aplicação**
+   Inicie o servidor com o comando abaixo:
+   ```bash
+   mvn spring-boot:run
+   ```
+5. **Acesse a API:**  
+   - Base URL: [http://localhost:8080](http://localhost:8080)  
+   - Documentação Swagger: [http://localhost:8080/swagger-ui.html](http://localhost:8080/swagger-ui.html)
 
+---
 
+## 🔗 **Endpoints Principais**
+
+| **Método** | **Rota**             | **Descrição**                       |
+|------------|----------------------|-------------------------------------|
+| `POST`     | `/api/artistas`      | Cadastrar um novo artista.          |
+| `POST`     | `/api/nfts`          | Criar um novo NFT.                  |
+| `GET`      | `/api/nfts`          | Listar NFTs disponíveis.            |
+| `POST`     | `/api/transacoes`    | Registrar uma transação de compra.  |
+| `GET`      | `/api/dashboard`     | Dados de vendas do artista.         |
+
+---
+
+## 🧪 **Testes**
+
+1. **Execução dos Testes**  
+   Utilize o Maven para rodar os testes unitários e de integração:  
+   ```bash
+   mvn test
