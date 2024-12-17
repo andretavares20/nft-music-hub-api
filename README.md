@@ -146,3 +146,68 @@ nft-music-hub-api/
      jpa:
        hibernate:
          ddl-auto: validate
+2. **Gerar o artefato .jar**
+   Compile o projeto para produção:
+   ```bash
+   mvn clean package
+3. **Executar o arquivo .jar**
+   Use o seguinte comando:
+   ```bash
+   java -jar target/nft-music-hub-api.jar --spring.profiles.active=prod
+4. **Acesso à API em Produção**
+   - Acesse sua aplicação em produção pela URL configurada no servidor.
+
+---
+
+## 🤝 **Como Contribuir**
+
+Contribuições são **muito bem-vindas**! Siga os passos abaixo para colaborar com o projeto:
+
+1. **Faça um fork** do repositório.  
+2. **Crie uma branch** para a sua feature ou correção:  
+   ```bash
+   git checkout -b minha-feature
+3. Adicione suas alterações:
+   ```bash
+   git add .
+   git commit -m "Adicionei nova funcionalidade X"
+4. Envie suas alterações para o fork:
+   ```bash
+   git push origin minha-feature
+5. Abra um Pull Request no repositório principal.
+
+---
+
+## 📜 **Licença**
+
+Este projeto está licenciado sob a **MIT License**.  
+Consulte o arquivo [LICENSE](LICENSE) para mais informações.
+
+---
+
+## 💡 **Próximas Funcionalidades**
+
+- **Leilão de NFTs**: Implementar funcionalidade para venda de NFTs em formato de leilão.  
+- **Royalties Automatizados**: Distribuição automática de royalties entre artistas e colaboradores.  
+- **Multi-Blockchain**: Integração com outras blockchains como Polygon e Solana.  
+- **Notificações em Tempo Real**: Alerta de transações e vendas usando WebSocket.  
+- **Análises Avançadas**: Estatísticas detalhadas sobre NFTs, vendas e engajamento.  
+
+---
+
+## 🌐 **Contato**
+
+**Desenvolvido por André Tavares**  
+
+- GitHub: [andre-tavares](https://github.com/)  
+- LinkedIn: [André Tavares](https://www.linkedin.com/)  
+- Email: [andre.tavares@example.com](mailto:andre.tavares@example.com)
+
+---
+
+## 🎉 **Agradecimentos**
+
+Agradecemos a todos os colaboradores, artistas e apoiadores que fazem parte do desenvolvimento do **NFT Music Hub**.  
+Este projeto visa revolucionar o mercado da música com o poder da **blockchain** e dos **NFTs**. 🚀🎶
+
+---
