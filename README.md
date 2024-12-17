@@ -170,7 +170,7 @@ Consulte o arquivo [LICENSE](LICENSE) para mais informações.
 
 - GitHub: [andre-tavares](https://github.com/)  
 - LinkedIn: [André Tavares](https://www.linkedin.com/)  
-- Email: [andre.tavares@example.com](mailto:andre.tavares@example.com)
+- Email: [andre.tavares@gmail.com](mailto:andre.tavares@gmail.com)
 
 ---
 
