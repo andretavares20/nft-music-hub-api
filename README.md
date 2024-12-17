@@ -81,7 +81,7 @@ nft-music-hub-api/
    ```yaml
    spring:
      datasource:
-       url: jdbc:mysql://localhost:5432/nftmusicdb
+       url: jdbc:mysql://localhost:3306/nftmusicdb
        username: seu-usuario
        password: sua-senha
      jpa:
