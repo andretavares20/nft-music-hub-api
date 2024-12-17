@@ -56,7 +56,7 @@ nft-music-hub-api/
 │
 ├── pom.xml                       # Dependências do Maven
 └── README.md                     # Documentação do projeto
-
+````
 ---
 
 ## ⚙️ **Configuração do Projeto**
