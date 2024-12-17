@@ -129,3 +129,20 @@ nft-music-hub-api/
    - Validação dos endpoints da API.
    - Testes de lógica de negócios para criação de NFTs e transações.
    - Testes de persistência para o banco de dados.
+     
+---
+
+## 🚀 **Deploy**
+
+### **Configuração para Produção**
+1. **Configurar variáveis de ambiente**  
+   Atualize as configurações de produção no arquivo `application-prod.yml`:
+   ```yaml
+   spring:
+     datasource:
+       url: jdbc:postgresql://seu-banco-prod:5432/nftmusicdb
+       username: usuario-prod
+       password: senha-prod
+     jpa:
+       hibernate:
+         ddl-auto: validate
