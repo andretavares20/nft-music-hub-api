@@ -125,3 +125,7 @@ nft-music-hub-api/
    Utilize o Maven para rodar os testes unitários e de integração:  
    ```bash
    mvn test
+2. **Cobertura de Testes**
+   - Validação dos endpoints da API.
+   - Testes de lógica de negócios para criação de NFTs e transações.
+   - Testes de persistência para o banco de dados.
