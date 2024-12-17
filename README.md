@@ -75,4 +75,20 @@ nft-music-hub-api/
    ```bash
    git clone https://github.com/seu-usuario/nft-music-hub-api.git
    cd nft-music-hub-api
+   ```
+2. **Configure o banco de dados**  
+   Edite o arquivo `application.yml` com suas credenciais do PostgreSQL:
+   ```yaml
+   spring:
+     datasource:
+       url: jdbc:postgresql://localhost:5432/nftmusicdb
+       username: seu-usuario
+       password: sua-senha
+     jpa:
+       hibernate:
+         ddl-auto: update
+       show-sql: true
+     application:
+       name: NFT Music Hub API
+
 
