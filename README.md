@@ -56,3 +56,23 @@ nft-music-hub-api/
 │
 ├── pom.xml                       # Dependências do Maven
 └── README.md                     # Documentação do projeto
+
+---
+
+## ⚙️ **Configuração do Projeto**
+
+### **Pré-requisitos**
+- **Java 17**  
+- **Maven**  
+- **PostgreSQL**  
+- Carteira Ethereum (ex.: MetaMask)
+
+---
+
+### **Passos para Instalação**
+
+1. **Clone o repositório**  
+   ```bash
+   git clone https://github.com/seu-usuario/nft-music-hub-api.git
+   cd nft-music-hub-api
+
